@@ -13,5 +13,6 @@ https://github.com/ValdikSS/GoodbyeDPI/releases 를 이용한 우회 GUI 프로�
 5. 실행 탭 - 실행 으로 실행 한다. 
 
 ** 처음 실행시만 GoodbyeDPI폴더 설정이 필요 하고 이후 부터는 저장된 폴더로 저장된다.
+
    저장된 폴더는 GoodbyeDPIHelper의 settings.ini 파일 내에 저장된다.
 # 
