@@ -63,7 +63,7 @@ namespace GoodbyeDPIHelper
             }
             else if(OSRB2.Checked)
             {
-                p.StartInfo.FileName = textBox1.Text + "\\x86_x64\\goodbyedpi.exe";
+                p.StartInfo.FileName = textBox1.Text + "\\x86_64\\goodbyedpi.exe";
             }
             
 
@@ -116,6 +116,8 @@ namespace GoodbyeDPIHelper
 
         private void button3_Click(object sender, EventArgs e)
         {
+            folderBrowserDialog1.SelectedPath = Application.StartupPath;
+
             if(folderBrowserDialog1.ShowDialog() == DialogResult.OK)
             {
                 textBox1.Text = folderBrowserDialog1.SelectedPath;
