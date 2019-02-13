@@ -35,6 +35,7 @@ namespace GoodbyeDPIHelper
         string FilePath_x64;
         StringBuilder DPIFolder = new StringBuilder();
 
+
         private void MainForm_Load(object sender, EventArgs e)
         {
             button2.Enabled = false;
